@@ -16,7 +16,7 @@ jobs:
           - aarch64-unknown-linux-musl # ARM Linux (musl)
 
     env:
-      BINARY_NAME: text-cleaner
+      BINARY_NAME: masking_PII
 
     steps:
       - name: Checkout code
