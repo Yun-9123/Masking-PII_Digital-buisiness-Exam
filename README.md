@@ -1,7 +1,3 @@
----
-layout: default
-title: masking_PII
----
 #  masking_PII: Privacy-First Data Anonymization
 
 ![Rust](https://img.shields.io/badge/language-Rust-orange)
