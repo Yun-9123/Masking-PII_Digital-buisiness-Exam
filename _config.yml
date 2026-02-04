@@ -1,4 +1,11 @@
 remote_theme: kitian616/jekyll-TeXt-theme
 
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jemoji
+
 theme_config:
   skin: ocean
+  highlight_theme: tomorrow-night
