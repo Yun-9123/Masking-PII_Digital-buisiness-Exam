@@ -2,8 +2,8 @@ Anmeldung zur Untersuchung
 Name: Otto Schneider
 Versicherungsnummer: 0000012345
 Geburtsdatum: 01.01.1990
-Adresse: Schwarzwaldstrasse 999, 79098, Freiburg im Breisgau
-Telefon: +49 1234 123456
+Adresse: Schwarzwaldstrasse 9, 79098, Freiburg im Breisgau
+Telefon: +491234123456
 # ---------------------------------------------------------------------
 Vital Signs:
 Heart rate: 72bpm

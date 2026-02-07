@@ -17,8 +17,14 @@ fn main(){
 		Ok(content) => {
 			
 			//Regex
-			let re = Regex::new(r"\d").unwrap(); 
+			let re = Regex::new(r"(\d{2}\.\d{2}\.\d{4}|\b\d{5,}\b)").unwrap(); 
 			let masked = re.replace_all(&content, "*");
+
+			//Print messages, also when there is  no content need to be masked
+			if masked == content{
+				println!("Notice: No sensitive digits found. The output file remains unchanged.");}
+			else{
+				println!("Detected sensitive PII. Applying masks...")}
 			
 			//write 
 			fs::write("masked_output.txt", masked.to_string()).expect("Failed to precess");
