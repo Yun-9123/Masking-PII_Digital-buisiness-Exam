@@ -28,6 +28,16 @@ $ ./masking_PII
 # Process succeeded! Result saved to: masked_output.txt
 ```
 
+##  Supported Data Pattern
+The tool utilizes a **Dual-Pattern Regex Engine** designed for strict identification:
+
+1. **European Date Format (`DD.MM.YYYY`)**: 
+   * Protects birthdates and medical records (e.g., `14.10.2025`).
+2. **Continuous Long Numbers (`\b\d{5,}\b`)**: 
+   * **Mobile Numbers & IDs**: Specifically targets continuous digits with 5 or more characters.
+   * **Strict Format**: To ensure accuracy, phone numbers must be **connected without spaces** (e.g., `01512345678`). 
+   * **Context Preservation**: Short administrative numbers (like `1` or `20`) are intentionally ignored to maintain document context.
+
 ---
 
 ##  3. Automation Solution
