@@ -60,8 +60,8 @@ $ ./masking_PII
 ##  6. Download (Binaries)
 Download the latest statically linked binaries for your platform from the [Releases](https://github.com/YOUR_GITHUB_USERNAME/masking_PII/releases) page.
 
-* 🐧 [**Linux aarch64 (musl)**](https://github.com/YOUR_GITHUB_USERNAME/masking_PII/releases) 
-* 🐧 [**Linux x86_64 (musl)**](https://github.com/YOUR_GITHUB_USERNAME/masking_PII/releases)
+* 🐧 [**Linux aarch64 (musl)**](https://github.com/Yun-9123/Masking-PII_Digital-buisiness-Exam/releases/download/v0.1.2/aarch64-unknown-linux-musl.tar.gz) 
+* 🐧 [**Linux x86_64 (musl)**](https://github.com/Yun-9123/Masking-PII_Digital-buisiness-Exam/releases/download/v0.1.2/x86_64-unknown-linux-musl.tar.gz)
 
 ---
 
