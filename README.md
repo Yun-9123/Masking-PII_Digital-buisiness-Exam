@@ -19,11 +19,11 @@ Researchers often handle large datasets containing sensitive student IDs or pati
 If you don't have an input file ready, the tool will input a demo file for you.
 
 ```bash
-# Simply run the tool without arguments
+# Execute the binary
 $ ./masking_PII
 
-# Output:
-# ---  masking_PII CLI Tool ---
+# The tool automatically detects missing files and creates a sample:
+# --- masking_PII CLI Tool ---
 # Notice: 'input.txt' not found. A demo file has been created for you.
 # Process succeeded! Result saved to: masked_output.txt
 ```
