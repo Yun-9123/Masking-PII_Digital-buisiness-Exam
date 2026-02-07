@@ -1,5 +1,3 @@
-#  masking_PII: Privacy-First Data Anonymization
-
 ![Rust](https://img.shields.io/badge/language-Rust-orange)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Status](https://img.shields.io/badge/status-active-green)
