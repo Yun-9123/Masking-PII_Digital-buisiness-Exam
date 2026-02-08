@@ -7,7 +7,7 @@
 
 ---
 
-##  1. Why this tool? (Problem Discovery)
+##  1. Why this tool?
 Researchers often handle large datasets containing sensitive student IDs or patient records. 
 * **The Manual Pain:** Redacting thousands of numbers manually is slow and error-prone.
 * **The Security Gap:** Online converters often violate **GDPR** by requiring cloud uploads.
