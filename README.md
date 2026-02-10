@@ -37,6 +37,23 @@ The tool utilizes a **Dual-Pattern Regex Engine** designed for strict identifica
    * **Strict Format**: To ensure accuracy, phone numbers must be **connected without spaces** (e.g., `01512345678`). 
    * **Context Preservation**: Short administrative numbers (like `1` or `20`) are intentionally ignored to maintain document context.
 
+##  Sample input.txt content:
+The bundled `input.txt` is structured as a medical registration form:
+
+```text
+Anmeldung zur Untersuchung
+Name: Otto Schneider
+Versicherungsnummer: 0000012345
+Geburtsdatum: 01.01.1990
+Adresse: Schwarzwaldstrasse 9, 79098, Freiburg im Breisgau
+Telefon: +491234123456
+# ---------------------------------------------------------------------
+Vital Signs:
+Heart rate: 72bpm
+Blood pressure: 120/80 mmHg
+Body Temperature: 36.5 Celsius 
+```
+
 ---
 
 ##  3. Automation Solution
