@@ -2,6 +2,7 @@
 use std::env;
 use std::fs;
 use regex::Regex;
+use std::path::Path;
 
 // main
 fn main(){
@@ -9,8 +10,23 @@ fn main(){
 	//get file and make manual input possible
 	let args: Vec<String> = env::args().collect();
 	let input_file = if args.len()>1{&args[1]} else {"input.txt"};
-	println!("File_input:{}", input_file);
 
+	if !Path::new(input_file).exists() && input_file == "input.txt" {
+        let demo_content = "Anmeldung zur Untersuchung\n\
+                            Name: Otto Schneider\n\
+                            Versicherungsnummer: 0000012345\n\
+                            Geburtsdatum: 01.01.1990\n\
+                            Adresse: Schwarzwaldstrasse 9, 79098, Freiburg im Breisgau\n\
+                            Telefon: +491234123456\n\
+                            # ---------------------------------------------------------------------\n\
+                            Vital Signs:\n\
+                            Heart rate: 72bpm\n\
+                            Blood pressure: 120/80 mmHg\n\
+                            Body Temperature: 36.5 Celsius";
+
+	fs::write(input_file, demo_content).expect("Failed to create demo file");
+        println!("Notice: '{}' not found. A professional demo file has been created for you.", input_file);}
+	
 	//match and use read_to_string()
 	match fs::read_to_string(input_file){
 
