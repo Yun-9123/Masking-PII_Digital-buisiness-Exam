@@ -15,17 +15,16 @@ Researchers often handle large datasets containing sensitive student IDs or pati
 
 ---
 
-##  2. Quick Demo
-If you don't have an input file ready, the tool will input a demo file for you.
+## 2.  How to Run
 
+The tool follows this logic to find data:
+1. **Custom Input:** Looks for a filename passed via command line (e.g., `./masking_PII data.txt`).
+2. **Default Fallback:** If no argument is given, it looks for the bundled `input.txt` in the same directory.
+
+**To test the tool immediately:**
+Simply run the binary without any arguments:
 ```bash
-# Execute the binary
-$ ./masking_PII
-
-# The tool automatically detects missing files and creates a sample:
-# --- masking_PII CLI Tool ---
-# Notice: 'input.txt' not found. A demo file has been created for you.
-# Process succeeded! Result saved to: masked_output.txt
+./masking_PII
 ```
 
 ##  Supported Data Pattern
@@ -71,6 +70,9 @@ Download the latest statically linked binaries for your platform from the [Relea
 * 🐧 [**Linux aarch64 (musl)**](https://github.com/Yun-9123/Masking-PII_Digital-buisiness-Exam/releases/download/v0.1.2/aarch64-unknown-linux-musl.tar.gz) 
 * 🐧 [**Linux x86_64 (musl)**](https://github.com/Yun-9123/Masking-PII_Digital-buisiness-Exam/releases/download/v0.1.2/x86_64-unknown-linux-musl.tar.gz)
 
+###  Extraction Note
+Please ensure you extract the **entire ZIP/TAR archive**. The executable depends on the bundled `input.txt` as a default fallback. 
+-  **Included files:** `masking_PII` (Binary), `input.txt` (Required Sample).
 ---
 
 *Created by a Health Informatics student for the "Digital Business" Final Exam.*
