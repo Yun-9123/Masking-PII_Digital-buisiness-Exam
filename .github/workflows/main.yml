@@ -63,5 +63,4 @@ jobs:
       - name: Package
         run: |
           cp target/${{ matrix.target }}/release/masking_PII .
-          cp input.txt . 
           tar -cvzf masking_PII-${{ matrix.target }}.tar.gz masking_PII input.txt
