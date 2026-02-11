@@ -93,6 +93,3 @@ Download the latest statically linked binaries for your platform from the [Relea
 * 🐧 [**Linux aarch64 (musl)**](https://github.com/Yun-9123/Masking-PII_Digital-buisiness-Exam/releases/download/v0.1.2/aarch64-unknown-linux-musl.tar.gz) 
 * 🐧 [**Linux x86_64 (musl)**](https://github.com/Yun-9123/Masking-PII_Digital-buisiness-Exam/releases/download/v0.1.2/x86_64-unknown-linux-musl.tar.gz)
 
----
-
-*Created by a Health Informatics student for the "Digital Business" Final Exam.*
