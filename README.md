@@ -16,18 +16,16 @@ Researchers often handle large datasets containing sensitive student IDs or pati
 ---
 
 ## 2.  How to Run
-
-## 1. Quick Demo Mode (Default)
+- Quick Demo Mode (Default)
 Simply run the binary. If `input.txt` is missing, the tool will **create it for you** and process it immediately.
 ```bash
 chmod +x masking_PII
 ./masking_PII
 ```
 
-## 2. Custom Input Mode (For Testing Your Own Files)
+- Custom Input Mode (For Testing Your Own Files)
 To process your specific `.txt` file, pass the filename as an argument. Make sure the file is in the same folder as the binary.
-```
-Example: If you have a file named test.txt, run:
+	- Example: If you have a file named test.txt, run:
 ```bash 
 ./masking_PII test.txt
 ```
